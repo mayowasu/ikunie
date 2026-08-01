@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - free-software</title>
+    <link rel="self" type="application/atom+xml" href="https://kiichigo.codeberg.page/ikunie/tags/free-software/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://kiichigo.codeberg.page/ikunie"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-06-28T00:00:00+00:00</updated>
+    <id>https://kiichigo.codeberg.page/ikunie/tags/free-software/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Free Software</title>
+        <published>2026-06-28T00:00:00+00:00</published>
+        <updated>2026-06-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://kiichigo.codeberg.page/ikunie/blog/free-software/"/>
+        <id>https://kiichigo.codeberg.page/ikunie/blog/free-software/</id>
+        
+        <content type="html" xml:base="https://kiichigo.codeberg.page/ikunie/blog/free-software/">&lt;div style=&quot;display: flex; flex-direction: column; align-items: center; gap: 15px; margin-bottom: 21px;&quot;&gt;
+  &lt;div style=&quot;display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;&quot;&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;www.fsf.org&#x2F;&quot;&gt;Free Software Foundation&lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;fsfe.org&#x2F;&quot;&gt;Free Software Foundation Europe&lt;&#x2F;a&gt;
+    &lt;a href=&quot;https:&#x2F;&#x2F;www.gnu.org&#x2F;&quot;&gt;The GNU Project&lt;&#x2F;a&gt;
+  &lt;&#x2F;div&gt;
+  &lt;div style=&quot;display: flex; flex-direction: column; align-items: center; gap: 8px;&quot;&gt;
+      &lt;div style=&quot;text-align: center; font-weight: bold; font-size: 1.2em;&quot;&gt;
+        Upgrade from Windows
+      &lt;&#x2F;div&gt;
+      &lt;div style=&quot;text-align: center;&quot;&gt;
+        &lt;a href=&quot;https:&#x2F;&#x2F;upgradefromwindows.org&quot;&gt;
+          &lt;img src=&quot;&#x2F;&#x2F;static.fsf.org&#x2F;fsforg&#x2F;graphics&#x2F;windows-infographic_share.png&quot; alt=&quot;Close Windows, Open Doors&quot; style=&quot;display: block; margin: 0 auto; max-width: 100%; height: auto;&quot; &#x2F;&gt;
+        &lt;&#x2F;a&gt;
+      &lt;&#x2F;div&gt;
+  &lt;&#x2F;div&gt; 
+  &lt;div style=&quot;text-align: center; font-weight: bold; font-size: 1.2em; margin-top: 10px;&quot;&gt;
+      &quot;Fight to Repair&quot; - demand the right to repair
+  &lt;&#x2F;div&gt;
+  &lt;div style=&quot;width: 100%; display: flex; justify-content: center;&quot;&gt;
+      &lt;script&gt;
+        window.onmessage = function (e) { if (e.data.hasOwnProperty(&quot;fsfIframeHeight&quot;)) { document.getElementById(&#x27;fight-to-repair-iframe&#x27;).style.height=`${e.data.fsfIframeHeight}px`; } };
+      &lt;&#x2F;script&gt;
+      &lt;iframe src=&quot;https:&#x2F;&#x2F;www.fsf.org&#x2F;videos&#x2F;fight-to-repair&#x2F;iframe.html&quot; 
+              id=&quot;fight-to-repair-iframe&quot; 
+              scrolling=&quot;no&quot; 
+              style=&quot;overflow: hidden; margin: 0; border: 0 none; display: block; width: 100%; max-width: 800px; height: 600px&quot;&gt;
+      &lt;&#x2F;iframe&gt;
+  &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>GNU&#x2F;Linux</title>
+        <published>2026-06-28T00:00:00+00:00</published>
+        <updated>2026-06-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://kiichigo.codeberg.page/ikunie/blog/gnu-linux/"/>
+        <id>https://kiichigo.codeberg.page/ikunie/blog/gnu-linux/</id>
+        
+        <content type="html" xml:base="https://kiichigo.codeberg.page/ikunie/blog/gnu-linux/">&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;QlD9UBTcSW4&quot;&gt;I&#x27;d just like to interject for moment&lt;&#x2F;a&gt;. What you&#x27;re referring to as Linux, is in fact, &lt;strong&gt;GNU&#x2F;Linux&lt;&#x2F;strong&gt;, or as I&#x27;ve recently taken to calling it, &lt;strong&gt;GNU plus Linux&lt;&#x2F;strong&gt;. Linux is not an operating system unto itself, but rather another free component of a fully functioning GNU system made useful by the GNU corelibs, shell utilities and vital system components comprising a full OS as defined by POSIX.&lt;&#x2F;p&gt;
+&lt;p&gt;Many computer users run a modified version of the GNU system every day, without realizing it. Through a peculiar turn of events, the version of GNU which is widely used today is often called Linux, and many of its users are not aware that it is basically the GNU system, developed by the GNU Project.&lt;&#x2F;p&gt;
+&lt;p&gt;There really is a Linux, and these people are using it, but it is just a part of the system they use. Linux is the kernel: the program in the system that allocates the machine&#x27;s resources to the other programs that you run. The kernel is an essential part of an operating system, but useless by itself; it can only function in the context of a complete operating system. Linux is normally used in combination with the GNU operating system: the whole system is basically GNU with Linux added, or GNU&#x2F;Linux. All the so-called Linux distributions are really distributions of GNU&#x2F;Linux!&lt;&#x2F;p&gt;
+&lt;p&gt;Seriously though, here is why you should use the name &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.gnu.org&#x2F;gnu&#x2F;gnu-linux-faq.html&quot;&gt;GNU&#x2F;Linux&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.gnu.org&#x2F;gnu&#x2F;about-gnu.en.html&quot;&gt;&lt;img src=&quot;https:&#x2F;&#x2F;www.gnu.org&#x2F;graphics&#x2F;gnubanner-alt.png&quot; alt=&quot;GNU in a Nutshell&quot; &#x2F;&gt;&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

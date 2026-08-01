@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://kiichigo.codeberg.page/ikunie/sitemap.xml
