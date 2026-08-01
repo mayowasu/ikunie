@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: NONE
+# SPDX-License-Identifier: CC0-1.0
+
+[submodule "themes/themes/linkita"]
+	path = themes/themes/linkita
+	url = https://codeberg.org/salif/linkita.git
+	branch = v4
+[submodule "themes/linkita"]
+	path = themes/linkita
+	url = https://codeberg.org/salif/linkita.git
+	branch = v4
