@@ -1,0 +1,46 @@
+# The URL the site will be built for
+base_url = "https://kiichigo.codeberg.page/ikunie"
+
+# Theme
+theme = "linkita"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[extra]
+header_menu_name = "header_menu_name"
+
+[extra.footer]
+# Replace with the URL of the license you want.
+# No default value. Supports "$BASE_URL".
+license_url = "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+
+# Replace "Your Name" with your name and "CC BY-SA 4.0" with the name of the license you want.
+copyright = "&copy; $YEAR Julian Malinowski &vert; [CC BY-NC-SA 4.0]($LICENSE_URL)"
+
+[extra.menus]
+header_menu_name = [
+  { url = "$BASE_URL/about/", name = "About" },
+  { url = "$BASE_URL/blog/", name = "Archive" },
+  { url = "$BASE_URL/categories/", name = "Categories" },
+  { url = "$BASE_URL/tags/", name = "Tags" },
+]
+
+[[taxonomies]]
+name = "categories"
+feed = true
+paginate_by = 4
+
+[[taxonomies]]
+name = "tags"
+feed = true
+paginate_by = 4
+
+[[taxonomies]]
+name = "authors"
+feed = true
+paginate_by = 4
+

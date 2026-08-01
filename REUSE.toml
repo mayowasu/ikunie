@@ -1,0 +1,34 @@
+# SPDX-FileCopyrightText: 2026 Julian Malinowski
+# SPDX-License-Identifier: CC0-1.0
+
+version = 1
+
+
+# banner
+[[annotations]]
+path = [
+    "templates/injects/body_start.html"
+]
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"
+
+# content
+[[annotations]]
+path = "content/**"
+SPDX-FileCopyrightText = "2026 Julian Malinowski"
+SPDX-License-Identifier = "CC-BY-NC-SA-4.0"
+
+# linkita theme
+[[annotations]]
+path = "themes/linkita/**"
+SPDX-FileCopyrightText = [
+    "2023 st1020",
+    "2024-2026 Salif Mehmed"
+]
+SPDX-License-Identifier = "MIT"
+
+# zola
+[[annotations]]
+path = "zola.toml"
+SPDX-FileCopyrightText = "NONE"
+SPDX-License-Identifier = "CC0-1.0"
